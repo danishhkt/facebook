@@ -25,7 +25,7 @@ SECRET_KEY = 'i1&-sd3+tekfm(n$_k+nidx_u$&yrn@k%bdn3$xc_5)$x_p^je'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['faceee.herokuapp.com']
 
 
 # Application definition
