@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def fn_test(request):
-    return HttpResponse('welcome')
+    return render(request,'facebookHomePage.html')
