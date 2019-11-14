@@ -3,11 +3,11 @@ from django.http import HttpResponse
 
 # Create your views here.
 def fn_test(request):
-    return render(request,'facebookHomePage.html')
+    return render(request,'facebook.html')
 
 
 def fn_register(req):
-    fname = req.POST['firstname']
+    firstname = req.POST['firstname']
     lname = req.POST['lastname']
     mobail = req.POST['mobail']
     passw=req.POST['password']
